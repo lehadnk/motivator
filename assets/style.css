@@ -57,3 +57,22 @@ a {
         padding-top: 10%;
     }
 }
+@media only all and (orientation: portrait) {
+    .ui.information.container {
+        width: 100%;
+    }
+    .ui.container {
+        margin: 0 !important;
+    }
+    input#salary-rate {
+        width: 144px;
+    }
+}
+@media only all and (max-width: 320px) {
+    #run-button:before {
+        content: 'Погнали!';
+    }
+    #run-button-text {
+        display: none;
+    }
+}
