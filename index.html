@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Мотивации псто</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- JQUERY -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        
+        <!-- SEMANTIC UI -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+        
+        <!-- ODOMETER -->
+        <link rel="stylesheet" type="text/css" href="assets/odometer-minimal.css">
+        <script type="text/javascript" src="assets/odometer.js"></script>
+        
+        <!-- APP -->
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script type="text/javascript" src="assets/app.js"></script>
+    </head>
+    <body>
+        <div class="full height image">
+            <div class="ui main container">
+                <div class="ui information container">
+                    <h1 class="ui center aligned header">Улучшатель мотивации</h1>
+                    <p>Когда за окном март, но очень хочется повтыкать во что-то приятное.</p>
+                    <div class="ui center aligned segment" id="salary-form">
+                        <div >
+                            <div class="ui action labeled input">
+                                <div class="ui label">₽</div>
+                                <input type="number" id="salary-rate" placeholder="Часовая ставка" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+                                <button class="ui positive button" onClick="runOdometer();">Наслаждаться</button>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <a href="https://www.reddit.com/">Я на окладе</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui center aligned segment" id="odometer-window" style="display: none;">
+                        <div style="min-height: 78px;">
+                                <h2>Ты заработал <span id="odometer" class="odometer"></span> ₽</h2>
+                                <p id="message" style="color: lightgreen;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ui vertical footer segment">
+                <div class="ui center aligned container">
+                    <div class="ui horizontal inverted small divided link list">
+                        <span class="item">© 2015</span>
+                        <a class="item" href="mailto: lehadnk@gmail.ru">lehadnk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

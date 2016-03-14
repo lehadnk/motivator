@@ -1,0 +1,54 @@
+a.sidebar-toggle.item {
+    cursor: pointer;
+}
+.full.height.image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55), 
+            rgba(0, 0, 0, 1)
+        ),
+        url("https://upload.wikimedia.org/wikipedia/commons/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg");
+    width: 100%;
+}
+.ui.main.container {
+    min-height: 100vh;
+}
+.ui.information.container {
+    padding-top: 25%;
+    width: 75%;
+}
+.ui.information.container h1, .ui.information.container p {
+    text-align: center;
+}
+.menu.bar {
+    padding: 2em 0;
+}
+.full.height .ui.vertical.footer.segment {
+    bottom: 0;
+    position: relative;
+}
+.ui.information.container h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+.ui.information.container p {
+    color: #ccc;
+    font-size: 1.5em;
+}
+.ui.embed {
+    padding-bottom: 45%;
+}
+.ui.segment {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+a {
+    text-decoration: underline;
+}
+.ui.information.container h2 {
+    color: white;
+    font-weight: bold;
+}
