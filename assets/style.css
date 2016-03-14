@@ -52,9 +52,14 @@ a {
     color: white;
     font-weight: bold;
 }
-@media only all and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-height: 600px) {
     .ui.information.container {
         padding-top: 10%;
+    }
+}
+@media only screen and (orientation: landscape) and (max-height: 320px) {
+    .ui.information.container {
+        padding-top: 1%;
     }
 }
 @media only all and (orientation: portrait) {
