@@ -52,3 +52,8 @@ a {
     color: white;
     font-weight: bold;
 }
+@media only all and (orientation: landscape) {
+    .ui.information.container {
+        padding-top: 10%;
+    }
+}
