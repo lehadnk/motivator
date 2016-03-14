@@ -3,7 +3,7 @@
     <head>
         <title>Мотивации псто</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
         
         <!-- JQUERY -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -28,10 +28,13 @@
                     <p>Когда за окном март, но очень хочется повтыкать во что-то приятное.</p>
                     <div class="ui center aligned segment" id="salary-form">
                         <div >
-                            <div class="ui action labeled input">
-                                <div class="ui label">₽</div>
+                            <div class="ui labeled action inverted input">
+                                <div class="ui green inverted label">₽</div>
                                 <input type="number" id="salary-rate" placeholder="Часовая ставка" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
                                 <button class="ui positive button" onClick="runOdometer();">Наслаждаться</button>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                
                             </div>
                             <div style="margin-top: 10px;">
                                 <a href="https://www.reddit.com/">Я на окладе</a>
